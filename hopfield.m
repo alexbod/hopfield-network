@@ -2,7 +2,7 @@
  % Website: http://www.alexbod.com
  % Details: http://www.alexbod.com/hopfield-network/
  % License: The GNU General Public License, version 2
- % hopfield.m: Hopfield network in matlab
+ % hopfield.m: Hopfield network in Matlab
  %}
 
 % Input data for learning
