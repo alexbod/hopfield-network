@@ -196,7 +196,7 @@ void calculateWeights(net* network)
 	}
 }
 
-/* Set input vector to the Net->output */
+/* Set the input vector to the Net->output */
 void setInput(net* network, int* input)
 {
 	int i;
@@ -207,7 +207,7 @@ void setInput(net* network, int* input)
 	printNet(network);
 }
 
-/* Set Net->output to the output vector */
+/* Set the Net->output to the output vector */
 void getOutput(net* network, int* output)
 {
 	int i;
@@ -219,7 +219,7 @@ void getOutput(net* network, int* output)
 	printf("----------\n\na");
 }
 
-/* Next iteration to find local minimum = recognized pattern */
+/* Next iteration to find the local minimum = recognized pattern */
 int nextIteration(net* network, int i)
 {
 	int  j;
@@ -283,10 +283,10 @@ void main()
 	/* Allocate memory and create the net */
 	createNet(&network);
 
-	/* Make matrix points binary */
+	/* Make the points matrix binary */
 	pointstoBinary(&network);
 
-	/* Calculate weight matrix */
+	/* Calculate the weight matrix */
 	calculateWeights(&network);
 
 	/* Find the local minimum = recognizing the pattern */
