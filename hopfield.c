@@ -29,7 +29,7 @@ typedef struct {
 
 /* Input data for learning */
 char x[NUMBER_OF_VECTORS][Y][X] =
-  {{ "    OO    ",
+      {{ "    OO    ",
 	 "    OO    ",
 	 "   OOOO   ",
 	 "   O  O   ",
@@ -75,7 +75,7 @@ char x[NUMBER_OF_VECTORS][Y][X] =
 
 /* Input data for recognition */
 char y[NUMBER_OF_VECTORS][Y][X] =
-   {{"    OO    ",
+       {{"    OO    ",
 	 "    OO    ",
 	 "   OOOO   ",
 	 "   O  OO  ",
