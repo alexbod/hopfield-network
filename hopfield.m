@@ -1,6 +1,6 @@
 %{ Author: Alex Bod
  % Website: http://www.alexbod.com
- % Details: http://www.alexbod.com/hopfield-neural-network
+ % Details: http://www.alexbod.com/hopfield-network
  % License: The GNU General Public License, version 2
  % hopfield.m: Hopfield neural network in matlab
  %}
